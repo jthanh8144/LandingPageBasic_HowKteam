@@ -1,0 +1,217 @@
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .heading-main-box{
+        transform: translate(-35%, -50%);
+    }
+    form{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width:1023px){
+    .logo{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .main-nav{
+        margin-top: 45px;
+        margin-right: 15px;
+        display: block;
+    }
+    .main-nav li{
+        margin-right: 10px;
+    }
+    .heading-main-box{
+        transform: translate(-20%, -50%);
+    }
+    .products-section .btn{
+        width: 80%;
+        margin-left: 10%
+    }
+    .product-box{
+        width: 95%;
+    }
+    h3{
+        font-size: 90%;
+    }
+    .product-box ul li{
+        margin-left: 5%;
+    }
+    .product-box .small-icon{
+        margin-right: 5px;
+    }
+    .social-icons li{
+        margin-left: 0px;
+    }
+    .infomation .small-icon{
+        display: block;
+    }
+    .infomation li{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .col{
+        width: 100%;
+    }
+    .main-nav{
+        display: none;
+        /*visibility: hidden;Ẩn thanh main nav*/
+        /*Hoặc
+        width: 0;
+        opacity: 0;*/
+    }
+    .mobile-nav-icon{
+        display: block;
+    }
+    .logo{
+        width: 350px;
+        margin-left: 12%;
+    }
+    .heading-main-text{
+        word-spacing: 2px;
+        font-size: 250%;
+    }
+    .heading-main-box{
+        transform: translate(-19%, -50%);
+    }
+    .heading-main-box .btn{
+        width: 18%;
+    }
+    .about-section .row .p-long{
+        font-size: 20px;
+    }
+    .about-picture{
+        text-align: center;
+    }
+    .about-picture img{
+        width: 70%;
+    }
+    .picture-title{
+        font-size: 25px;
+    }
+    .products-section .btn{
+        width: 70%;
+    }
+    .product-box{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .product-box ul li{
+        margin-left: 20%;
+    }
+    .testimonials-section .row .col{
+        margin-bottom: 40px;
+    }
+    figcaption{
+        visibility: hidden;
+    }
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    label{
+        margin-left: 35%;
+    }
+    .information{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .information li{
+        font-size: 20px;
+    }
+    .social-icons{
+        text-align: center;
+    }
+    .social-icons li{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 525px){
+    .mobile-nav-icon{
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    html{
+        font-size: 12px;
+    }
+    .logo{
+        width: 250px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    .heading-main-text{
+        font-size: 200%;
+    }
+    .heading-main-box{
+        transform: translate(-10%, -50%);
+    }
+    .heading-main-box .btn{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 3%;
+        width: 13%;
+    }
+    .infomation li{
+        font-size: 15px;
+
+    }
+    .social-icons li{
+        font-size: 30px;
+    }
+    form{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .mobile-nav-icon{
+        top: 115px;
+    }
+    .sticky .logo{
+        width: 200px;
+        margin-top: -25px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .logo{
+        width: 150px;
+        margin-left: 15%;
+    }
+    .main-nav{
+        font-size: 90%;
+        margin-top: 60px;
+    }
+    .mobile-nav-icon{
+        top: 70px;
+        right: 30px;
+    }
+    .sticky{
+        padding-bottom: 20px;
+    }
+    .picture-title{
+        font-size: 120%;
+        left: 56%;
+    }
+    .product-box{
+        width: 95%;
+        margin-left: 3.5%;
+        height: 280px;
+    }
+    .sponsors-showcase{
+        margin-left: -20%;
+    }
+    .infomation{
+        font-size: 30%;
+    }
+    .contact-section form{
+        width: 120%;
+        margin-left: -10%;
+    }
+}
