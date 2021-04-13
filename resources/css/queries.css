@@ -2,9 +2,6 @@
     html{
         font-size: 16px;
     }
-    .heading-main-box{
-        transform: translate(-35%, -50%);
-    }
     form{
         margin-left: 30%;
     }
@@ -24,7 +21,7 @@
         margin-right: 10px;
     }
     .heading-main-box{
-        transform: translate(-20%, -50%);
+        transform: translate(-50%, -50%);
     }
     .products-section .btn{
         width: 80%;
@@ -75,12 +72,6 @@
         word-spacing: 2px;
         font-size: 250%;
     }
-    .heading-main-box{
-        transform: translate(-19%, -50%);
-    }
-    .heading-main-box .btn{
-        width: 18%;
-    }
     .about-section .row .p-long{
         font-size: 20px;
     }
@@ -92,6 +83,7 @@
     }
     .picture-title{
         font-size: 25px;
+        left: 55%;
     }
     .products-section .btn{
         width: 70%;
@@ -136,6 +128,9 @@
     .mobile-nav-icon{
         right: 50px;
     }
+    .sponsors-showcase{
+        margin-left: 0;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -150,18 +145,14 @@
     .heading-main-text{
         font-size: 200%;
     }
-    .heading-main-box{
-        transform: translate(-10%, -50%);
-    }
     .heading-main-box .btn{
         display: block;
+        margin: 0 auto;
         margin-bottom: 20px;
-        margin-left: 3%;
-        width: 13%;
+        width: 60%;
     }
     .infomation li{
-        font-size: 15px;
-
+        font-size: 13px;
     }
     .social-icons li{
         font-size: 30px;
@@ -207,11 +198,15 @@
     .sponsors-showcase{
         margin-left: -20%;
     }
-    .infomation{
-        font-size: 30%;
+    .information li{
+        font-size: 14px;
     }
     .contact-section form{
         width: 120%;
         margin-left: -10%;
+    }
+    input, textarea{
+        margin: 0 !important;
+        width: 100% !important;
     }
 }

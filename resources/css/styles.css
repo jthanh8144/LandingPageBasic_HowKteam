@@ -156,8 +156,8 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-45%, -55%);
-    width: 1140px;
+    transform: translate(-80%, -55%);
+    width: fit-content;
 }
 
 .heading-main-text{
